@@ -1,0 +1,399 @@
+/*main*/
+*{
+    box-sizing: border-box;
+
+}
+
+
+body{
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+p{
+    color: #182153;
+    font-weight:lighter;
+ }
+h1{
+    color: #182153;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: auto;
+    padding: 30px;
+}
+strong{
+    font-weight:600;
+}
+hr{
+    border: .5px solid powderblue ;
+    clear: both;
+    margin: auto;
+}
+/*comment*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*header start*/
+header h1{
+    text-align: left;
+    text-transform: capitalize;
+    display: inline;
+    position: fixed;
+    z-index: 5;
+}
+header{
+    background-color: #f1f1f1;
+    height: 90px;
+}
+nav{
+    text-align: right;
+    word-spacing: 1.5cm;
+    margin-right: 0px;
+    position: fixed;
+    z-index: 5;
+    top: 45px;
+    right: 45px;
+    display: inline-block;
+}
+a:hover{
+    color: #AEB4D4;
+}
+a:link{
+    text-decoration: none;
+}
+a {
+    color: #182153;
+}
+/*header end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*about me start*/
+.bgimage {
+    background-image: url("../images/landscape(2).jpg");
+    background-size: 100%;
+    height: 560px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.profile {
+    width: 25%;
+    height: 470px;
+    overflow: hidden;
+}
+.profile img{
+    width: 472px;
+}
+.info{
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 470px;
+    padding: 60px;
+}
+.sup{
+    vertical-align: 5px;
+    font-style: small;
+}
+.big {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.section3{
+    background-color: #f1f1f1;
+}
+.section3 div:first-child{
+    width: 50%;
+    margin: auto;
+    height: 80px;
+    background-color: #182153;
+    display: flex;
+    justify-content: center;
+}
+.section3 div:first-child img{
+    width: 30px;
+    margin: 25px 30px;
+}
+p i{
+    color: orangered; 
+}
+.section4{
+    font-weight: lighter;
+    padding: 50px;
+    margin:auto;
+    width: 670px;
+}
+.section4 h1{
+    font-size: xx-large;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: none;
+}
+.section4 p{
+    text-align: center;
+}
+/*about me end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*Education start*/
+#education{
+    background-color: white;
+    clear: both;
+}
+.section6{
+    background-color: #f1f1f1;
+    text-align: center;
+    clear: both;
+}
+.section6 section{
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.section6 div{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.section6 div:first-child {
+    text-align: right;
+    margin-right: 30px;
+}
+.section6 div:last-child {
+    text-align: left;
+    margin-left: 30px;
+}
+.section6 div:first-child p{
+    width: 100%;
+    height: 125px;
+}
+/*Education end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*clients start*/
+.section7 section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}    
+.section7 section img{
+    width: 120px;
+    margin: 30px;
+}
+/*clients end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*Skills start*/
+.section10{
+    background: url("../images/macbook(2).jpg") center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.section10 h1{
+    color: #fff
+}
+.section10 .dhead{
+    background-color: #182153;
+}
+.section10 section{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;;
+}
+
+.section10 section > div {
+    width: 10cm;
+    height: 2cm;
+    margin-top: 45px;
+    
+}
+
+
+.section10 section div > div{
+    width: 10cm;
+    height: 2cm;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: rgba(136,136,164,0.6);
+    padding: 25px;
+    /* margin: 30px; */
+    position: absolute;;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+} 
+
+progress{
+    
+}
+
+li{
+    list-style-type: none;
+    color: white;
+}
+
+
+/*Skills end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*Expertis start*/
+
+.section13{
+    background-color: #f1f1f1;
+    clear: both;
+}
+
+.section13 section{
+    width: 50%;
+    padding: 50px 0px 80px 0px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around
+    
+}
+.section13 section p{
+    width: 275px;
+}
+/*Expertis end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*contact me start*/
+.section16{
+    clear: both;
+    background-color: #AEB4D4;
+    position: relative;
+}
+.section16 section{
+    width: 50%;
+    margin:auto;
+    display: flex;
+}
+
+.section16 section > hr{
+    position: relative;
+    border: 1px solid powderblue;
+    margin: 0px;
+}
+    
+    
+.input{
+    width: 470px;
+    padding: 40px 20px;
+    color: #152183;
+ }
+
+.infome{
+    width: 470px;
+    padding: 40px 0 0 50px;
+}
+.infome hr{
+    width: 300px;
+    margin: 65px 0px 0px 0px;
+    border: .5px solid #ff98002b; 
+}
+.infome div{
+    width: 200px;
+    padding-top: 20px;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.infome div img{
+    width: 25px;
+    height: 25px;
+}
+.infome P:first-child span{
+    font-size: 25px;
+}
+form{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+input, textarea{
+    width: 195px;
+    margin: 5px 0;
+    height: 40px;
+    padding: 5px;
+}
+textarea {
+    height: 150px;
+    width: 400px;
+    resize: none;
+}
+input[type="submit"]{
+    width: 400px;
+    height: 50px;
+    background-color: #182153;
+    border: none;
+    color: white;
+    font-size: small;
+}
+input[name="Subject"]{
+    width: 400px;
+}
+/*contact me end*/
+
+/*------------------------------------*/
+/*------------------------------------*/
+
+/*footer start*/
+footer{
+    background-color: #ffffff;
+    color: #c7c7c7;
+    text-align: center;
+    font-size: 12px;
+    height: 80px;
+    padding-top: 40px;
+}
+/*footer end*/
+
+/*====================================*/
+/*====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
